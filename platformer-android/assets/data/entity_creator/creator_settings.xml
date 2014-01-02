@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+
+    <casters>
+
+        <caster_entry
+            casterClass="creator.defaultcasters.IntegerCaster"
+            typeClass="java.lang.Integer" />
+
+        <caster_entry
+            casterClass="creator.defaultcasters.FloatCaster"
+            typeClass="java.lang.Float" />
+
+        <caster_entry
+            casterClass="creator.defaultcasters.StringCaster"
+            typeClass="java.lang.String" />
+
+        <caster_entry
+            casterClass="none"
+            typeClass="com.badlogic.gdx.physics.box2d.Body" />
+        
+        <caster_entry
+            casterClass="none"
+            typeClass="com.badlogic.gdx.graphics.g2d.TextureAtlas" />
+    </casters>
+
+</settings>

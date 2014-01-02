@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_patterns>
+
+    <pattern
+        id="player_pattern"
+        parent="none" >
+
+        <components package="fr.nathan.platformer.components" >
+
+            <component className="LocationComponent" >
+
+                <param
+                    name="x"
+                    className="java.lang.Float"
+                    defaultValue="none" />
+
+                <param
+                    name="y"
+                    className="java.lang.Float"
+                    defaultValue="none" />
+            </component>
+
+            <component className="RenderComponent" >
+
+                <param
+                    name="atlas"
+                    className="com.badlogic.gdx.graphics.g2d.TextureAtlas"
+                    defaultValue="none" />
+
+                <param
+                    name="regionName"
+                    className="java.lang.String"
+                    defaultValue="none" />
+            </component>
+
+            <component className="MovementComponent" >
+            </component>
+
+            <component className="PhysicsComponent" >
+
+                <param
+                    name="body"
+                    className="com.badlogic.gdx.physics.box2d.Body"
+                    defaultValue="none" />
+            </component>
+        </components>
+    </pattern>
+
+</entity_patterns>
